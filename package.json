@@ -1,0 +1,25 @@
+{
+  "name": "jeu-serpent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Humeau Sebastien",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^10.0.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
